@@ -16,7 +16,6 @@
   "bugs": {
     "url": "https://github.com/trswork/Tech-Blog/issues"
   },
-  "homepage": "https://github.com/trswork/Tech-Blog",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.2",
