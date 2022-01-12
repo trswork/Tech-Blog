@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/trswork/Tech-Blog/issues"
   },
-  "homepage": "https://github.com/trswork/Tech-Blog#readme",
+  "homepage": "https://github.com/trswork/Tech-Blog",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.2",
@@ -25,6 +25,7 @@
     "express-handlebars": "^5.3.5",
     "express-session": "^1.17.2",
     "mysql2": "^2.3.3",
+    "react-scripts": "^5.0.0",
     "sequelize": "^6.12.5"
   }
 }

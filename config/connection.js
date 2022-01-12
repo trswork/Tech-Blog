@@ -5,8 +5,10 @@ require('dotenv').config();
 // create connection to our db
 const sequelize = process.env.JAWSDB_URL
   ? new Sequelize(process.env.JAWSDB_URL)
-  : new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PW, {
-      host: 'localhost',
+  : new Sequelize(process.env.DB_HOST, process.env.DB_USER, process.env.DB_PASS, {
+      host: 'DB_HOST',
+      user: 'DB_USER',
+      password: 'DB_PASS',
       dialect: 'mysql',
       port: 3306
     });
